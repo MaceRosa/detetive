@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQccxCOfagx2MXDrUTZIGh8IElWnNgonG_zTrU72L672wiAW-qdVqYz_hXTs1eEvMUlc&usqp=CAU');
+}
+.titulo {
+    border: #388E3C;
+    background-color: #4CAF50;
+    color: white    ;
+    border-radius: 20px;
+}
+.suspeitos, .armas, .localizacao {
+    writing-mode: vertical-rl;
+    border: 1px solid #00f80c;
+    background-color: #0c420d;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-orientation: upright;
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.categorias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 450px;
+    background-color: rgba(138, 182, 18, 0.527);
+}
+.pessoas, .objetos, .locais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+label {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    border: 1px solid #388E3C;
+    border-radius: 5px;
+    color: white;
+}
+label.selected {
+    background-color: rgb(218, 84, 84);
+    color: white;
+}
+#reset {
+    writing-mode: vertical-rl;
+    border: 1px solid #ff0000;
+    background-color: #cf2f2f;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 10px;
+    text-orientation: upright;
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+}
